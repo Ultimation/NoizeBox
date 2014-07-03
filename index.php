@@ -111,7 +111,9 @@ $swap_out = format_bytes($memory['Used Swap']).'<small> / '.format_bytes($memory
 		<div id="links">
 		bros 
 			<a href="https://www.flickr.com/photos/ultimation/">ultimation</a>
-			<a href="/~wutno/">wutno</a>
+			<a href="/~wutno/">wutno</a>	
+			<a href="/~psychonaught/">psychonaught</a>
+			<a href="/~hash/">hash</a>
 			<br/>
 		links
 			<a href="http://192.168.0.22:32400/manage/index.html">plex<small><small><small> (local only)</small></small></small></a>
