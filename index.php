@@ -116,6 +116,7 @@ $swap_out = format_bytes($memory['Used Swap']).'<small> / '.format_bytes($memory
 			<a href="/~hash/">hash</a>
 			<br/>
 		links
+			<a href="http://noize.link:8080">minecraft</a>
 			<a href="http://192.168.0.22:32400/manage/index.html">plex<small><small><small> (local only)</small></small></small></a>
 			<a href="index.php?dat=sauce">source</a>
 		</div>
