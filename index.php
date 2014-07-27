@@ -49,7 +49,7 @@ function calculate_percentage($used, $total){
 
 $uptime = exec('uptime');
 preg_match('/ (.+) up (.+) user(.+): (.+)/', $uptime, $update_out);
-$users_out = substr($update_out[2], strrpos($update_out[2], ' ')+1);
+$users_out = (substr($update_out[2], strrpos($update_out[2], ' ')+1))-1;
 $uptime_out = substr($update_out[2], 0, strrpos($update_out[2], ' ')-2);
 $load_out = str_replace(', ',', <small>',$update_out[4]).str_repeat('</small>',2);
 
