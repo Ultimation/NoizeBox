@@ -93,9 +93,9 @@ $swap_out = format_bytes($memory['Used Swap']).'<small> / '.format_bytes($memory
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>NoizeBox stats</title>
+		<title>cynk</title>
 		<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noodp" /> <!-- I fucking hate robots... -->
-		<meta name="description" content="Status page for NoizeBox." />
+		<meta name="description" content="Status page for cynk.tech." />
 		<meta http-equiv="refresh" content="10">
 		<meta charset="UTF-8" />
 		<style type="text/css">
@@ -131,12 +131,5 @@ $swap_out = format_bytes($memory['Used Swap']).'<small> / '.format_bytes($memory
 		memory<span><?=$memory_out;?></span> <!-- RAM usage -->
 		swap<span><?=$swap_out;?></span> <!-- SWAP usage -->
 		disk<span><?=$raiddrive_out;?></span> <!-- RAID information -->
-		<?=($_SERVER['SERVER_NAME'] == "noize.link" ? '' : "<small><small>POWERED BY</small> epic memes</small>");?>
-		<!-- ,------.              ,--.        ,--.                                           ,--.            ,--.   -->
-		<!-- |  .---',--.,--. ,---.|  |,-.     |  | ,---.  ,--,--.,--,--,  ,---.  ,---.  ,---.|  |,-. ,---. ,-'  '-. -->
-		<!-- |  `--, |  ||  || .--'|     /     |  || .-. :' ,-.  ||      \| .-. || .-. || .--'|     /| .-. :'-.  .-' -->
-		<!-- |  |`   '  ''  '\ `--.|  \  \     |  |\   --.\ '-'  ||  ||  || '-' '' '-' '\ `--.|  \  \\   --.  |  |   -->
-		<!-- `--'     `----'  `---'`--'`--'    `--' `----' `--`--'`--''--'|  |-'  `---'  `---'`--'`--'`----'  `--'   -->
-		<!--                                                              `--'                                       -->
 	</body>
 </html>
